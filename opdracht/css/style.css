@@ -1,0 +1,409 @@
+header{
+	color: blue;
+}
+
+.main-nav{
+    float: right;
+    display: flex;
+    flex-direction: column;
+    
+	list-style: none;
+	margin-top: 30px;
+}
+
+.main-nav li{
+	display: inline-block;
+
+}
+
+.main-nav li a{
+	color: rgb(148, 25, 25);
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 15px;
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+.main-nav li.acitve a{
+	border:1px solid white;
+
+}
+
+.main-nav li a:hover{
+    border:1px solid white;
+    border-radius: 10px;
+	background-color: rgb(32, 19, 3);
+}
+main{
+	height: 15pc;
+}
+
+
+body{
+	background-image: url(../images/pexels-stephan-seeber-1261728.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+h1{
+	color: rgb(148, 25, 25);
+	text-transform: uppercase;
+	font-size: 70px;
+	text-align: center;
+	margin-top: 100px;
+	font-family: "Roboto", sans-serif;
+}
+
+
+.footer-distributed{
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: normal 16px sans-serif;
+	padding: 45px 50px;
+	margin-top: 75vh;
+	background-color: grey;
+}
+
+.footer-distributed .footer-left p{
+	color:  rgb(148, 25, 25);
+	font-size: 14px;
+	margin: 0;
+}
+
+.footer-distributed p.footer-links{
+	font-size:18px;
+	font-weight: bold;
+	color:  #ffffff;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+.footer-distributed p.footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-right{
+	float: right;
+	margin-top: 6px;
+	max-width: 180px;
+}
+
+.footer-distributed .footer-right a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-left: 3px;
+}
+
+.fa-facebook {
+  color: #3b5998;
+  text-shadow: 0 0 15px #3b5998;
+  transition: all 0.5s ease;
+}
+
+
+.fa-linkedin {
+  color: rgb(0,119,181);
+  text-shadow: 0 0 15px #3b5998;
+  transition: all 0.5s ease;
+}
+
+.fa-github {
+  color: purple;
+  text-shadow: 0 0 15px #3b5998;
+  transition: all 0.5s ease;
+}
+
+
+.container{
+	color: rgb(148, 25, 25);;
+	border:2px transparent black;
+	border-radius: 15px;
+	float: center;
+	background-color:#33383b;
+    width: 510px;
+	margin-left: 500px;
+}
+
+.foto-van-mezelf img{
+	width: 350px;
+	height: 390px;
+	margin-left: 500px;
+	border:2px solid white;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: black;
+}
+
+.containerc{
+	margin-left: 200px;
+	margin-top: 30px;
+	color: rgb(148, 25, 25);
+	font-weight: bold;
+	background-color: #33383b;
+}
+
+h10{
+font-family: "Roboto", sans-serif;
+font-size: 20px;
+margin-left: 5px;	
+}
+
+h6{
+	float: right;
+	margin-right: 5px;
+	font-family: "Roboto", sans-serif;
+	font-size: 20px;
+}
+
+
+h4{
+	font-family: "Roboto", sans-serif;
+	font-size: 30px;
+	margin-left: 30%;
+}
+h3{
+	color: rgb(148, 25, 25);
+}
+.hobby{
+	color: rgb(148, 25, 25);
+	margin-left: 100px;
+	margin-top: 1px;
+}
+.skill{
+	margin-left: 900px;
+	margin-top: 10px;
+
+}
+h2{
+	margin-left: 5px;
+}
+
+h11{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed p.footer-links a:hover{
+	color: blue;
+	text-decoration: underline;
+}
+.containercontact{
+	color: rgb(148, 25, 25);
+	border:2px transparent black;
+	border-radius: 15px;
+	float: center;
+	background-color:#33383b;
+	width: 510px;
+	margin-left: 345px;
+}
+.container-project{
+	background-color:#33383b;
+	color: rgb(148, 25, 25);
+	border:2px transparent black;
+	border-radius: 15px;
+	float: left;
+	width: 510px;
+	margin-left: 1px;
+	
+}
+.projectfoto{
+	width: 75px;
+	height: 25px;
+	border-image: auto;
+	background-origin: padding-box;
+	
+
+}
+.container-infobs{
+	font-weight: bold;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background-color: #33383b;
+	color: rgb(148, 25, 25);
+	border:2px transparent black;
+	border-radius: 15px;
+	float: left;
+	width: 510px;
+	margin-left: 1000px;
+	margin-top: 200px;
+
+}
+
+.fa {
+	font-size: 100px;
+	cursor: pointer;
+	user-select: none;
+	color: blue;
+  }
+  
+.fa:hover {
+	color: darkblue;
+  }
+
+.container-hobby{
+	border:3px solid #33383b;
+	border-radius: 15px;
+	float: left;
+	background-color: #33383b;
+	width: 500px;
+	margin-left: 190px;
+	margin-top: 0px;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+	color:rgb(148, 25, 25);
+	font-weight: bold;
+}
+
+.containerskill{
+	border:3px solid #33383b;
+	border-radius: 15px;
+	float: right;
+	background-color: #33383b;
+	width: 500px;
+	margin-right: 150px;
+	margin-top: 0px;
+    height: 55vh;
+    background-size: cover;
+    background-position: center;
+	color:rgb(148, 25, 25);
+	font-weight: bold;
+
+}
+.itkennis{
+	border:3px solid #33383b;
+	border-radius: 15px;
+	float: left;
+	background-color: #33383b;
+	width: 500px;
+	margin-left: 165px;
+	margin-top: 100px;
+    height: 35vh;
+    background-size: cover;
+    background-position: center;
+	color:rgb(148, 25, 25);
+
+
+}
+.slideshobby-container{
+	max-width: 1000px;
+	position: relative;
+	margin: auto;
+
+}
+.mySlides {
+	display:none;
+}
+.prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	margin-top: -22px;
+	padding: 16px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+  }
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+  }
+.prev:hover, .next:hover {
+background-color: rgba(0,0,0,0.8);
+}
+.text {
+	color:white;
+	font-size: 25px;
+	font-weight: bold;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 8px;
+	width: 100%;
+	text-align: center;
+  }
+.numbertext {
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+  }
+.dot {
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+  }
+.active, .dot:hover {
+	background-color: #717171;
+  }
+.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s; 
+}
+@-webkit-keyframes fade {
+	from {opacity: .4}
+	to {opacity: 1}
+  }
+  
+@keyframes fade {
+	from {opacity: .4}
+	to {opacity: 1}
+  }
+  img {
+	  vertical-align: middle;
+  }
+  
+  
